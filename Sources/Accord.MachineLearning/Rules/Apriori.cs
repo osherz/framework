@@ -58,7 +58,7 @@ namespace Accord.MachineLearning.Rules
         /// </summary>
         /// <param name="threshold">The minimum number of times a rule should be detected (also known as its support) 
         ///   before it can be registered as a permanent in the learned classifier.</param>
-        /// <param name="confidence">The minimum confidence in an association rule beore it is 
+        /// <param name="confidence">The minimum confidence in an association rule before it is 
         ///   registered.</param>
         ///   
         public Apriori(int threshold, double confidence)
